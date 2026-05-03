@@ -104,6 +104,14 @@ Batch analyzing 7 URLs...
 
 📄 HTML report saved: reports/http_analysis_20260503_094007.html
 ```
+## HTML Report
+
+<img width="2856" height="1417" alt="image" src="https://github.com/user-attachments/assets/9fcbba41-d877-44b5-8568-6bb997840f5f" />
+
+
+## Test Report Screenshot
+<img width="2336" height="1052" alt="image" src="https://github.com/user-attachments/assets/785a02d8-0a4e-4428-9d5b-d4349786cffa" />
+
 
 Saves a dark-themed HTML file you can open in a browser or share with someone.
 
@@ -114,7 +122,7 @@ Saves a dark-themed HTML file you can open in a browser or share with someone.
 You need Python 3.10 or above.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/http-traffic-analyzer.git
+git clone https://github.com/vijaykumardandu/http-traffic-analyzer.git
 cd http-traffic-analyzer
 
 python -m venv venv
