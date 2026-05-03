@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>HTTP Traffic Analysis Report</title>
+<style>
+  body { font-family: 'Segoe UI', sans-serif; background: #0f1117; color: #c9d1d9; margin: 0; padding: 2rem; }
+  h1 { color: #58a6ff; font-size: 1.4rem; margin-bottom: 0.3rem; }
+  p.meta { color: #8b949e; font-size: 0.85rem; margin-bottom: 2rem; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+  th { background: #161b22; color: #8b949e; text-align: left; padding: 10px 12px; border-bottom: 1px solid #30363d; }
+  td { padding: 9px 12px; border-bottom: 1px solid #21262d; vertical-align: top; }
+  tr:hover td { background: #161b22; }
+  .ok { color: #3fb950; font-weight: 600; }
+  .warn { color: #d29922; font-weight: 600; }
+  .err { color: #f85149; font-weight: 600; }
+  tr.error td { color: #f85149; }
+  .url-cell { font-family: monospace; font-size: 0.82rem; color: #79c0ff; max-width: 320px; word-break: break-all; }
+  .badge { font-size: 0.75rem; padding: 2px 7px; border-radius: 12px; font-weight: 600; }
+  .badge.green { background: #1f4d2e; color: #3fb950; }
+  .badge.red { background: #4d1f1f; color: #f85149; }
+  .badge.yellow { background: #4d3800; color: #d29922; }
+</style>
+</head>
+<body>
+<h1>🔍 HTTP Traffic Analysis Report</h1>
+<p class="meta">Generated: 2026-05-03 09:40:07 | 7 URL(s) analyzed</p>
+<table>
+  <thead>
+    <tr>
+      <th>URL</th><th>Status</th><th>Total</th><th>TTFB</th><th>Size</th><th>Security</th><th>CDN</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+        <tr>
+          <td class="url-cell" title="https://httpbin.org/get">https://httpbin.org/get</td>
+          <td class="ok">200 OK</td>
+          <td>2265.5 ms</td>
+          <td>2265.4 ms</td>
+          <td>0.31 KB</td>
+          <td><span class="badge green">HTTPS</span> <span class="badge yellow">No HSTS</span></td>
+          <td>Unknown / Not detected</td>
+        </tr>
+        <tr>
+          <td class="url-cell" title="https://httpbin.org/status/200">https://httpbin.org/status/200</td>
+          <td class="ok">200 OK</td>
+          <td>3281.14 ms</td>
+          <td>3281.09 ms</td>
+          <td>0.0 KB</td>
+          <td><span class="badge green">HTTPS</span> <span class="badge yellow">No HSTS</span></td>
+          <td>Unknown / Not detected</td>
+        </tr>
+        <tr>
+          <td class="url-cell" title="https://httpbin.org/status/404">https://httpbin.org/status/404</td>
+          <td class="warn">404 Not Found</td>
+          <td>3193.32 ms</td>
+          <td>3193.27 ms</td>
+          <td>0.0 KB</td>
+          <td><span class="badge green">HTTPS</span> <span class="badge yellow">No HSTS</span></td>
+          <td>Unknown / Not detected</td>
+        </tr>
+        <tr>
+          <td class="url-cell" title="https://httpbin.org/redirect/2">https://httpbin.org/redirect/2</td>
+          <td class="ok">200 OK</td>
+          <td>3268.64 ms</td>
+          <td>3268.47 ms</td>
+          <td>0.31 KB</td>
+          <td><span class="badge green">HTTPS</span> <span class="badge yellow">No HSTS</span></td>
+          <td>Unknown / Not detected</td>
+        </tr>
+        <tr>
+          <td class="url-cell" title="https://httpbin.org/delay/1">https://httpbin.org/delay/1</td>
+          <td class="ok">200 OK</td>
+          <td>3588.33 ms</td>
+          <td>3588.24 ms</td>
+          <td>0.36 KB</td>
+          <td><span class="badge green">HTTPS</span> <span class="badge yellow">No HSTS</span></td>
+          <td>Unknown / Not detected</td>
+        </tr>
+        <tr>
+          <td class="url-cell" title="https://example.com">https://example.com</td>
+          <td class="ok">200 OK</td>
+          <td>1215.1 ms</td>
+          <td>1214.72 ms</td>
+          <td>0.52 KB</td>
+          <td><span class="badge green">HTTPS</span> <span class="badge yellow">No HSTS</span></td>
+          <td>Cloudflare</td>
+        </tr>
+        <tr>
+          <td class="url-cell" title="https://google.com">https://google.com</td>
+          <td class="ok">200 OK</td>
+          <td>2035.02 ms</td>
+          <td>1915.17 ms</td>
+          <td>80.53 KB</td>
+          <td><span class="badge green">HTTPS</span> <span class="badge yellow">No HSTS</span></td>
+          <td>Google CDN</td>
+        </tr>
+  </tbody>
+</table>
+</body>
+</html>

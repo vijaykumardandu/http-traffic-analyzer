@@ -1,0 +1,11 @@
+# Sample URLs for batch analysis
+# Lines starting with # are ignored
+# Add any URLs you want to test, one per line
+
+https://httpbin.org/get
+https://httpbin.org/status/200
+https://httpbin.org/status/404
+https://httpbin.org/redirect/2
+https://httpbin.org/delay/1
+https://example.com
+https://google.com
