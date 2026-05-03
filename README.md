@@ -103,19 +103,10 @@ Batch analyzing 7 URLs...
 [7/7] https://google.com               → 200 OK  | 2035.0 ms  | Google CDN
 
 📄 HTML report saved: reports/http_analysis_20260503_094007.html
+
+## Screenshot
 ```
-## HTML Report
-
-<img width="2856" height="1417" alt="image" src="https://github.com/user-attachments/assets/9fcbba41-d877-44b5-8568-6bb997840f5f" />
-
-
-## Test Report Screenshot
-<img width="2336" height="1052" alt="image" src="https://github.com/user-attachments/assets/785a02d8-0a4e-4428-9d5b-d4349786cffa" />
-
-
-Saves a dark-themed HTML file you can open in a browser or share with someone.
-
----
+<img width="2879" height="1186" alt="image" src="https://github.com/user-attachments/assets/0b5048d2-54b5-4141-930d-67e82333b518" />
 
 ## Setup
 
