@@ -31,25 +31,8 @@ python main.py analyze https://google.com
   https://google.com
 ════════════════════════════════════════════════════════════
 
-  Status                 200 OK
-  Content-Type           text/html; charset=ISO-8859-1
-  Body Size              80.33 KB (82254 bytes)
+ <img width="1196" height="908" alt="image" src="https://github.com/user-attachments/assets/38d2dfe8-64ef-4596-bcd7-2e30b54c7675" />
 
-  ── Timing ──
-  Total                  1499.91 ms
-  Time to First Byte     1205.9 ms
-  Body Download          294.01 ms
-
-  ── Redirects (1) ──
-  301 → https://www.google.com/
-
-  ── Security ──
-  TLS/HTTPS              ✓ HTTPS
-  HSTS                   ✗ Missing
-  Content-Security-Policy ✗ Missing
-  CORS Origin            Not set
-  CDN Provider           Google CDN
-  Cache-Control          private, max-age=0
 ```
 
 ---
