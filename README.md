@@ -31,7 +31,8 @@ python main.py analyze https://google.com
   https://google.com
 ════════════════════════════════════════════════════════════
 
- <img width="1196" height="908" alt="image" src="https://github.com/user-attachments/assets/38d2dfe8-64ef-4596-bcd7-2e30b54c7675" />
+<img width="1196" height="908" alt="Screenshot 2026-05-03 100115" src="https://github.com/user-attachments/assets/5d38d503-be8f-47f2-95f9-e595d6838aaf" />
+
 
 ```
 
